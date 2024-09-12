@@ -2,7 +2,7 @@
 This is the official PyTorch implementation for our CVPR2024 paper "[RankMatch: Exploring the Better Consistency Regularization for Semi-supervised Semantic Segmentation](https://openaccess.thecvf.com/content/CVPR2024/papers/Mai_RankMatch_Exploring_the_Better_Consistency_Regularization_for_Semi-supervised_Semantic_Segmentation_CVPR_2024_paper.pdf)".
 
 <p align="left">
-<img src="./Figs/framework.png" width=100% height=100% 
+<img src="./Figs/framework.png" width=90% height=90% 
 class="center">
 </p>
 
@@ -84,5 +84,5 @@ If you find this project useful, please consider citing:
 ```
 
 ## Acknowledgements
-RankMatch is based on [UniMatch](https://github.com/LiheYoung/UniMatch). 
+RankMatch is primarily based on [UniMatch](https://github.com/LiheYoung/UniMatch). 
 We are grateful to their authors for open-sourcing their code.
