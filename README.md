@@ -1,6 +1,14 @@
-# RankMatch
+<div align="center">   
+
+# RankMatch: Exploring the Better Consistency Regularization for Semi-supervised Semantic Segmentation
+[![Paper](https://img.shields.io/badge/paper-CVPR-green)](https://openaccess.thecvf.com/content/CVPR2024/papers/Mai_RankMatch_Exploring_the_Better_Consistency_Regularization_for_Semi-supervised_Semantic_Segmentation_CVPR_2024_paper.pdf)
+
+</div>
+
 This is the official PyTorch implementation for our CVPR2024 paper "[RankMatch: Exploring the Better Consistency Regularization for Semi-supervised Semantic Segmentation](https://openaccess.thecvf.com/content/CVPR2024/papers/Mai_RankMatch_Exploring_the_Better_Consistency_Regularization_for_Semi-supervised_Semantic_Segmentation_CVPR_2024_paper.pdf)".
 
+## Abstract
+The key lie in semi-supervised semantic segmentation is how to fully exploit substantial unlabeled data to improve the model’s generalization performance by resorting to constructing effective supervision signals. Most methods tend to directly apply contrastive learning to seek additional supervision to complement independent regular pixel-wise consistency regularization. However, these methods tend not to be preferred ascribed to their complicated designs, heavy memory footprints and susceptibility to confirmation bias. In this paper, we analyze the bottlenecks exist in contrastive learning-based methods and offer a fresh perspective on inter-pixel correlations to construct more safe and effective supervision signals, which is in line with the nature of semantic segmentation. To this end, we develop a coherent RankMatch network, including the construction of representative agents to model inter-pixel correlation beyond regular individual pixel-wise consistency, and further unlock the potential of agents by modeling inter-agent relationships in pursuit of rank-aware correlation consistency. Extensive experimental results on multiple benchmarks, including mitochondria segmentation, demonstrate that RankMatch performs favorably against state-of-the-art methods. Particularly in the low-data regimes, RankMatch achieves significant improvements.
 <p align="left">
 <img src="./Figs/framework.png" width=90% height=90% 
 class="center">
@@ -60,8 +68,6 @@ The final folder structure should look like this:
 ```
 
 ## Usage
-
-### RankMatch
 
 ```bash
 # use torch.distributed.launch
