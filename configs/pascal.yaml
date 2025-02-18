@@ -1,7 +1,7 @@
 # arguments for dataset
 dataset: pascal
 nclass: 21
-crop_size: 321
+crop_size: 513
 data_root: Your/Pascal/Path
 
 # arguments for training
