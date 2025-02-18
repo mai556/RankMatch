@@ -25,7 +25,7 @@ from itertools import permutations
 import numpy as np
 
 
-parser = argparse.ArgumentParser(description='Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation')
+parser = argparse.ArgumentParser(description='RankMatch: Exploring the Better Consistency Regularization for Semi-supervised Semantic Segmentation')
 parser.add_argument('--config', type=str, required=True)
 parser.add_argument('--labeled-id-path', type=str, required=True)
 parser.add_argument('--unlabeled-id-path', type=str, required=True)
