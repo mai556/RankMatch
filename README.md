@@ -28,20 +28,18 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 -f https://download.py
 
 ### Pretrained Backbone
 
-[ResNet-50](https://drive.google.com/file/d/1mqUrqFvTQ0k5QEotk4oiOFyP6B9dVZXS/view?usp=sharing) | [ResNet-101](https://drive.google.com/file/d/1Rx0legsMolCWENpfvE2jUScT3ogalMO8/view?usp=sharing) | [Xception-65](https://drive.google.com/open?id=1_j_mE07tiV24xXOJw4XDze0-a0NAhNVi)
+[ResNet-50](https://drive.google.com/file/d/1mqUrqFvTQ0k5QEotk4oiOFyP6B9dVZXS/view?usp=sharing) | [ResNet-101](https://drive.google.com/file/d/1Rx0legsMolCWENpfvE2jUScT3ogalMO8/view?usp=sharing)
 
 ```
 ├── ./pretrained
     ├── resnet50.pth
-    ├── resnet101.pth
-    └── xception.pth
+    └── resnet101.pth
 ```
 
 ### Dataset
 
 - Pascal: [JPEGImages](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) | [SegmentationClass](https://drive.google.com/file/d/1ikrDlsai5QSf2GiSUR3f8PZUzyTubcuF/view?usp=sharing)
 - Cityscapes: [leftImg8bit](https://www.cityscapes-dataset.com/file-handling/?packageID=3) | [gtFine](https://drive.google.com/file/d/1E_27g9tuHm6baBqcA7jct_jqcGA89QPm/view?usp=sharing)
-- COCO: [train2017](http://images.cocodataset.org/zips/train2017.zip) | [val2017](http://images.cocodataset.org/zips/val2017.zip) | [masks](https://drive.google.com/file/d/166xLerzEEIbU7Mt1UGut-3-VN41FMUb1/view?usp=sharing)
 
 Please modify your dataset path in configuration files.
 
@@ -61,10 +59,6 @@ The final folder structure should look like this:
 	├── cityscapes
 		├── leftImg8bit
 		└── gtFine
-	├── coco
-		├── train2017
-		├── val2017
-		└── masks
 ```
 
 ## Usage
